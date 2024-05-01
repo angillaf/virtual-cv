@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://szymonkin.netlify.app"
+  to = "https://szymonkin.dev"
+  status = 301
+  force = true
