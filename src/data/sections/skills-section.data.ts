@@ -88,6 +88,12 @@ const skillsSectionData = {
           url: 'https://playwright.dev/',
         },
         {
+          icon: 'simple-icons:angular',
+          iconColor: 'red',
+          name: 'Angular',
+          url: 'https://playwright.dev/',
+        },
+        {
           icon: 'logos:turborepo-icon',
           name: 'Turbo',
           url: 'https://turbo.build/',

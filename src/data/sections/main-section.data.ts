@@ -9,20 +9,20 @@ const mainSectionData = {
     slug: 'profile',
     visible: true,
   },
-  image: import('@/assets/my-image.jpeg'),
-  fullName: 'Szymon Kin',
+  image: import('@/assets/avatar.jpg'),
+  fullName: 'Thomas Kirton',
   role: 'Frontend Developer',
   details: [
-    { label: 'Phone', value: '+48 515 191 231', url: 'tel:+48 515 191 231' },
-    { label: 'Email', value: 'szymon.kin@gmail.com', url: 'mailto:szymon.kin@gmail.com' },
-    { label: 'From', value: 'Poznan, Poland' },
-    { label: 'Contract type', value: 'B2B' },
+    { label: 'Phone', value: '+420 222 316 021', url: 'tel:+420 222 316 021' },
+    { label: 'Email', value: 'thomaskirton08@gmail.com', url: 'mailto:thomaskirton08@gmail.com' },
+    { label: 'From', value: 'Prague, Czechia' },
+    { label: 'Contract type', value: 'Freelance, Employment, B2B' },
   ],
   pdfDetails: [
-    { label: 'Phone', value: '+48 515 191 231' },
-    { label: 'Email', value: 'szymon.kin@gmail.com', url: 'mailto:szymon.kin@gmail.com' },
-    { label: 'LinkedIn', value: '/in/szymon-kin', url: 'https://www.linkedin.com/in/szymon-kin/' },
-    { label: 'GitHub', value: '/hoolek77', url: 'https://github.com/hoolek77' },
+    { label: 'Phone', value: '+420 222 316 021' },
+    { label: 'Email', value: 'thomaskirton08@gmail.com', url: 'mailto:thomaskirton08@gmail.com' },
+    { label: 'LinkedIn', value: '/in/thomas-kirton-45a263309', url: 'https://www.linkedin.com/in/thomas-kirton-45a263309/' },
+    { label: 'GitHub', value: '/sheriffwoody0922', url: 'https://github.com/sheriffwoody0922' },
     { label: 'Website', value: 'szymonkin.dev', url: 'https://szymonkin.dev/', fullRow: true },
   ],
   description:
@@ -33,7 +33,7 @@ const mainSectionData = {
     url: '/cv.pdf',
     downloadedFileName: 'szymon-kin-cv.pdf',
   },
-  links: [github({ url: 'https://github.com/hoolek77' }), linkedin({ url: 'https://www.linkedin.com/in/szymon-kin/' })],
+  links: [github({ url: 'https://github.com/sheriffwoody0922' }), linkedin({ url: 'https://www.linkedin.com/in/thomas-kirton-45a263309/' })],
 } as const satisfies ReadonlyDeep<MainSection>;
 
 export default mainSectionData;
